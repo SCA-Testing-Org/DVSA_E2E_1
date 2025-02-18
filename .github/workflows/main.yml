@@ -5,7 +5,7 @@ env:
   product: DVWA
   subProduct: DVWAmono
   environment: Production
-  token: 8ba8cada-8de6-4860-82e6-16a74ff95517
+  token: ${{secrets.ARMORCODE_TOKEN}}7
   buildTool: GITHUB_ACTIONS
   buildNumber: ${{github.run_number}}
   end: 30
